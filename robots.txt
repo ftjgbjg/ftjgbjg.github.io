@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://skura.top/sitemap.xml
+Sitemap: https://blog.skura.top/sitemap.xml
