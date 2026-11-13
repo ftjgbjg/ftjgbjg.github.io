@@ -189,7 +189,7 @@ sudo ufw allow 10011/tcp #服务器查询<br />
 sudo ufw allow 30033/tcp #文件传输</p>
 <p>9、报错处理</p>
 <p>有可能你运行systemctl status ts3看到的是这样的信息：</p>
-<p><img src="file://C:/Users/23529/OneDrive/Gridea/post-images/1767213644627.png" alt="" /></p>
+<p><img src="https://blog.skura.top/post-images/1794601784291697300_0.png" alt="" /></p>
 <p>这时候我们还是先停止服务器运行，并重启服务器：</p>
 <p><code>systemctl disable ts3</code><br />
 <code>systemctl stop ts3</code><br />
@@ -199,13 +199,13 @@ sudo ufw allow 30033/tcp #文件传输</p>
 <code>cd teamspeak3</code><br />
 <code>./ts3server_minimal_runscript.sh createinifile=1</code></p>
 <p>看到差不多这样的信息，就说明成功了</p>
-<p><img src="file://C:/Users/23529/OneDrive/Gridea/post-images/1767214172369.png" alt="" /></p>
+<p><img src="https://blog.skura.top/post-images/1794601801097786300_0.png" alt="" /></p>
 <p>此时CTRL+C退出，并重新回到root，再次赋予开机启动并开启服务器，查看状态应该可以看到如下信息</p>
 <p><code>su -</code><br />
 <code>systemctl enable ts3</code><br />
 <code>systemctl start ts3</code><br />
 <code>systemctl status ts3</code></p>
-<p><img src="file://C:/Users/23529/OneDrive/Gridea/post-images/1767214468040.png" alt="" /></p>
+<p><img src="https://blog.skura.top/post-images/1794601826923943000_0.png" alt="" /></p>
 <p>安装完成后，客户端可通过服务器 IP 和端口连接，使用之前保存的令牌获取管理员权限。</p>
 <p>参考<a href="https://www.aye10032.com/2022/11/20/2022-11-20-teamspeak/">www.aye10032.com</a>和豆包ai</p>
 ]]></description>
